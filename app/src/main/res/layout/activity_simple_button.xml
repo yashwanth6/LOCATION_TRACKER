@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SimpleButtonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <!--<Button-->
+            <!--android:id="@+id/sensor"-->
+            <!--android:layout_width="190dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="#FF1D7AB1"-->
+            <!--android:text="SendByShaking"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="20dip"-->
+            <!--android:typeface="serif"/>-->
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_incomingCall"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#FF1D7AB1"
+            android:text="IncomingCall"
+            android:textColor="#ffffff"
+            android:textSize="20dip"
+            android:typeface="serif"
+
+            />
+
+        <Button
+            android:id="@+id/btn_timer"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:background="#FF1D7AB1"
+            android:text="Timer"
+            android:textColor="#ffffff"
+            android:textSize="20dip"
+            android:typeface="serif"
+
+            />
+
+        <Button
+            android:id="@+id/btn_alerm"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:background="#FF1D7AB1"
+            android:text="@string/alarm"
+            android:textColor="#ffffff"
+            android:textSize="20dip"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btn_viewGuardian"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:background="#FF1D7AB1"
+            android:text="@string/viewGuardian"
+            android:textColor="#ffffff"
+            android:textSize="20dip"
+            android:typeface="serif" />
+        <!--<TextView-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:id="@+id/txt_msg"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Tilt The phone to send location"-->
+            <!--android:layout_width="190dp"-->
+            <!--android:layout_height="60dp" />-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Toggle Button" />
+
+            <ToggleButton
+                android:id="@+id/volume_toggle"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,256 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\255e3c67301e36e1652cdd0eb687dd8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5d58fd0183bb2bf090ed80f54acac381\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\01887adcce3b82c167219014505f4320\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d47c8a7293f471a51a524e6d88310ef7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\579fa01d96bfbd50e39ce6ceaf5e0631\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a6efdc894e33593c5a801b2613f2be8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d861a7cd45bcc7e05d1802efd588a985\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2b7ed3313573ba975c5e48dce4c41551\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9bb0671fbe659b7b57c8b4454d5aed7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\0aaa5e0402005dce4ba4da87904fad29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4f52c1e41f890a4e6b6516e3c8e4d611\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b4231028857d7ad901236e29dbf0108b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9de7bdc6e2c8cf7e87dfe9dace988586\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\155f209e5de9824437cdd8f280422850\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7737526b05d0ecd95765a90ef02ab512\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:2:11-69
+permission#com.example.secure.permission.MAPS_RECEIVE
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:6:9-66
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:11:22-69
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:12:22-70
+uses-permission#android.permission.INTERNET
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:14:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:20:22-70
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.WRITE_SMS
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:23:22-66
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:24:5-98
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:24:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:25:22-78
+uses-feature#0x00020000
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:30:5-32:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:31:9-41
+	android:required
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:32:9-32
+application
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:34:5-70:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5d58fd0183bb2bf090ed80f54acac381\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5d58fd0183bb2bf090ed80f54acac381\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\01887adcce3b82c167219014505f4320\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\01887adcce3b82c167219014505f4320\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:22:5-26:19
+	android:label
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:37:9-41
+	android:icon
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:36:9-52
+	android:allowBackup
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:35:9-35
+	android:theme
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:38:9-43
+activity#com.example.secure.SplashScreen
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:39:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:43:27-74
+service#com.example.secure.Myservices
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:47:9-49:38
+	android:enabled
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:49:13-35
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:48:13-39
+service#com.example.secure.ShakeService
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:50:9-51:37
+	android:enabled
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:51:13-35
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:50:18-46
+activity#com.example.secure.HelpActivity
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:53:9-50
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:53:19-47
+activity#com.example.secure.MainActivity
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:54:9-50
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:54:19-47
+activity#com.example.secure.RegisteringNumber
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:55:9-57:69
+	android:label
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:57:13-66
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:56:13-46
+activity#com.example.secure.IncomingCall
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:58:9-50
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:58:19-47
+activity#com.example.secure.TimerActivity
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:59:9-51
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:59:19-48
+activity#com.example.secure.Incoming2Activity
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:60:9-55
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:60:19-52
+activity#com.example.secure.SimpleButtonActivity
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:61:9-58
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:61:19-55
+receiver#com.example.secure.VolumeButtonReceiver
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:63:9-67:20
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:63:19-55
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:64:13-66:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:65:25-74
+activity#com.example.secure.SensorActivity
+ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:69:9-61
+	android:name
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml:69:19-49
+uses-sdk
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\255e3c67301e36e1652cdd0eb687dd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\255e3c67301e36e1652cdd0eb687dd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5d58fd0183bb2bf090ed80f54acac381\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5d58fd0183bb2bf090ed80f54acac381\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\56884212a5d1775f6a4cba8470a4c385\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\01887adcce3b82c167219014505f4320\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\01887adcce3b82c167219014505f4320\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d47c8a7293f471a51a524e6d88310ef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d47c8a7293f471a51a524e6d88310ef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\579fa01d96bfbd50e39ce6ceaf5e0631\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\579fa01d96bfbd50e39ce6ceaf5e0631\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a6efdc894e33593c5a801b2613f2be8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a6efdc894e33593c5a801b2613f2be8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d861a7cd45bcc7e05d1802efd588a985\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d861a7cd45bcc7e05d1802efd588a985\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2b7ed3313573ba975c5e48dce4c41551\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2b7ed3313573ba975c5e48dce4c41551\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9bb0671fbe659b7b57c8b4454d5aed7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9bb0671fbe659b7b57c8b4454d5aed7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\0aaa5e0402005dce4ba4da87904fad29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\0aaa5e0402005dce4ba4da87904fad29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4f52c1e41f890a4e6b6516e3c8e4d611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4f52c1e41f890a4e6b6516e3c8e4d611\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b4231028857d7ad901236e29dbf0108b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b4231028857d7ad901236e29dbf0108b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9de7bdc6e2c8cf7e87dfe9dace988586\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9de7bdc6e2c8cf7e87dfe9dace988586\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\155f209e5de9824437cdd8f280422850\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\155f209e5de9824437cdd8f280422850\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7737526b05d0ecd95765a90ef02ab512\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7737526b05d0ecd95765a90ef02ab512\AndroidManifest.xml:20:5-44
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+		ADDED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Spot N Secure\app\src\main\AndroidManifest.xml
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yashu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\10e28ea2bf19a6cfb8e5ddc53579a5a6\AndroidManifest.xml:24:13-58

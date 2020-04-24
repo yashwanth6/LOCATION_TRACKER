@@ -1,0 +1,4 @@
+#Wed Apr 22 19:26:14 IST 2020
+base.0=F\:\\Spot N Secure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+path.0=classes.dex
+renamed.0=classes.dex

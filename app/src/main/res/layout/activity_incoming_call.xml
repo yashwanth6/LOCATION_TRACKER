@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".IncomingCall">
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/img"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txt_name"
+        android:layout_below="@+id/img"
+        android:scaleType="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#123"
+        android:textSize="20dp"
+        android:text="Father"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_marginLeft="110dp"
+        android:scaleType="center"
+        android:layout_below="@id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/ic_sim_card_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#123"
+            android:text=" +1 7854730063"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#123"
+            android:text="  |"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#123"
+            android:id="@+id/txt_country"
+            android:text="  india"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/space"
+        android:layout_below="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginLeft="60dp"
+                        android:id="@+id/accept_call"
+                        android:layout_width="68dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/accept_call" />
+                    <TextView
+                        android:layout_marginLeft="79dp"
+                        android:textColor="#123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Answer  " />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/reject_call"
+                        android:src="@drawable/declain_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#123"
+                        android:text=" Call-End "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
